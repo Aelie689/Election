@@ -1,0 +1,61 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow when code is pushed to the 'main' branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest  # Run on an Ubuntu environment
+    
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Install frontend dependencies
+      - name: Install frontend dependencies
+        working-directory: ./front-end
+        run: npm install
+
+      # Step 3: Build frontend (React)
+      - name: Build frontend
+        working-directory: ./front-end
+        run: CI=false npm run build
+
+      # Step 4: Add EC2 host key to known hosts
+      - name: Add EC2 host to known hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -H 54.89.150.78 >> ~/.ssh/known_hosts
+
+      # Step 5: Save SSH private key to a file
+      - name: Save secret to file
+        run: |
+          echo "$SSH_PRIVATE_KEY" > private-key.pem
+          chmod 600 private-key.pem
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      # Step 6: SSH into EC2 and update code, build, and restart services
+      - name: SSH into EC2 and update code, build, and restart services
+        run: |
+          ssh -i private-key.pem ubuntu@54.89.150.78 << 'EOF'
+            # Navigate to the backend directory and pull latest code
+            cd ~/DES424_ElectionDashboard/back-end
+            git pull origin main
+            npm install  # Install any missing dependencies
+
+            # Restart the backend service using PM2
+            pm2 restart back-end
+
+            # Navigate to the frontend directory, pull latest code, and rebuild
+            cd ~/DES424_ElectionDashboard/front-end
+            git pull origin main
+            npm install  # Install any missing dependencies
+            npm run build  # Rebuild the frontend
+
+            # Restart Nginx (optional, if needed)
+            sudo systemctl restart nginx
+          EOF

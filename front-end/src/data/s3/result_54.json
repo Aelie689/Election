@@ -1,0 +1,242 @@
+[
+  {
+    "party_id": 1,
+    "party_name": "เพื่อไทย",
+    "total_vote": "15,752,470",
+    "total_seat": 204
+  },
+  {
+    "party_id": 2,
+    "party_name": "ชาติพัฒนาเพื่อแผ่นดิน",
+    "total_vote": "495,762",
+    "total_seat": 5
+  },
+  {
+    "party_id": 3,
+    "party_name": "ประชาธิปไตยใหม่",
+    "total_vote": "125,753",
+    "total_seat": 0
+  },
+  {
+    "party_id": 4,
+    "party_name": "ประชากรไทย",
+    "total_vote": "35,475",
+    "total_seat": 0
+  },
+  {
+    "party_id": 5,
+    "party_name": "รักประเทศไทย",
+    "total_vote": "998,668",
+    "total_seat": 0
+  },
+  {
+    "party_id": 6,
+    "party_name": "พลังชล",
+    "total_vote": "178,042",
+    "total_seat": 6
+  },
+  {
+    "party_id": 7,
+    "party_name": "ประชาธรรม",
+    "total_vote": "38,748",
+    "total_seat": 0
+  },
+  {
+    "party_id": 8,
+    "party_name": "ดำรงไทย",
+    "total_vote": "12,489",
+    "total_seat": 0
+  },
+  {
+    "party_id": 9,
+    "party_name": "พลังมวลชน",
+    "total_vote": "57,793",
+    "total_seat": 0
+  },
+  {
+    "party_id": 10,
+    "party_name": "ประชาธิปัตย์",
+    "total_vote": "11,435,640",
+    "total_seat": 115
+  },
+  {
+    "party_id": 11,
+    "party_name": "ไทยพอเพียง",
+    "total_vote": "49,065",
+    "total_seat": 0
+  },
+  {
+    "party_id": 12,
+    "party_name": "รักษ์สันติ",
+    "total_vote": "284,100",
+    "total_seat": 0
+  },
+  {
+    "party_id": 13,
+    "party_name": "ไทยเป็นสุข",
+    "total_vote": "9,132",
+    "total_seat": 0
+  },
+  {
+    "party_id": 14,
+    "party_name": "กิจสังคม",
+    "total_vote": "81,824",
+    "total_seat": 0
+  },
+  {
+    "party_id": 15,
+    "party_name": "ไทยเป็นไท",
+    "total_vote": "27,193",
+    "total_seat": 0
+  },
+  {
+    "party_id": 16,
+    "party_name": "ภูมิใจไทย",
+    "total_vote": "1,281,652",
+    "total_seat": 29
+  },
+  {
+    "party_id": 17,
+    "party_name": "แทนคุณแผ่นดิน",
+    "total_vote": "57,801",
+    "total_seat": 0
+  },
+  {
+    "party_id": 18,
+    "party_name": "เพื่อฟ้าดิน",
+    "total_vote": "12,823",
+    "total_seat": 0
+  },
+  {
+    "party_id": 19,
+    "party_name": "เครือข่ายชาวนาแห่งประเทศไทย",
+    "total_vote": "36,931",
+    "total_seat": 0
+  },
+  {
+    "party_id": 20,
+    "party_name": "การเมืองใหม่",
+    "total_vote": "34,883",
+    "total_seat": 0
+  },
+  {
+    "party_id": 21,
+    "party_name": "ชาติไทยพัฒนา",
+    "total_vote": "907,106",
+    "total_seat": 15
+  },
+  {
+    "party_id": 22,
+    "party_name": "เสรีนิยม",
+    "total_vote": "34,111",
+    "total_seat": 0
+  },
+  {
+    "party_id": 23,
+    "party_name": "ชาติสามัคคี",
+    "total_vote": "9,601",
+    "total_seat": 0
+  },
+  {
+    "party_id": 24,
+    "party_name": "บำรุงเมือง",
+    "total_vote": "6,568",
+    "total_seat": 0
+  },
+  {
+    "party_id": 25,
+    "party_name": "กสิกรไทย",
+    "total_vote": "11,268",
+    "total_seat": 0
+  },
+  {
+    "party_id": 26,
+    "party_name": "มาตุภูมิ",
+    "total_vote": "251,674",
+    "total_seat": 1
+  },
+  {
+    "party_id": 27,
+    "party_name": "ชีวิตที่ดีกว่า",
+    "total_vote": "6,882",
+    "total_seat": 0
+  },
+  {
+    "party_id": 28,
+    "party_name": "พลังสังคมไทย",
+    "total_vote": "4,861",
+    "total_seat": 0
+  },
+  {
+    "party_id": 29,
+    "party_name": "เพื่อประชาชนไทย",
+    "total_vote": "15,071",
+    "total_seat": 0
+  },
+  {
+    "party_id": 30,
+    "party_name": "มหาชน",
+    "total_vote": "133,752",
+    "total_seat": 0
+  },
+  {
+    "party_id": 31,
+    "party_name": "ประชาชนชาวไทย",
+    "total_vote": "13,010",
+    "total_seat": 0
+  },
+  {
+    "party_id": 32,
+    "party_name": "รักแผ่นดิน",
+    "total_vote": "6,501",
+    "total_seat": 0
+  },
+  {
+    "party_id": 33,
+    "party_name": "ประชาสันติ",
+    "total_vote": "12,912",
+    "total_seat": 0
+  },
+  {
+    "party_id": 34,
+    "party_name": "ความหวังใหม่",
+    "total_vote": "21,195",
+    "total_seat": 0
+  },
+  {
+    "party_id": 35,
+    "party_name": "อาสามาตุภูมิ",
+    "total_vote": "6,692",
+    "total_seat": 0
+  },
+  {
+    "party_id": 36,
+    "party_name": "พลังคนกีฬา",
+    "total_vote": "39,778",
+    "total_seat": 0
+  },
+  {
+    "party_id": 37,
+    "party_name": "พลังชาวนาไทย",
+    "total_vote": "7,332",
+    "total_seat": 0
+  },
+  {
+    "party_id": 38,
+    "party_name": "ไทยสร้างสรรค์",
+    "total_vote": "2,842",
+    "total_seat": 0
+  },
+  {
+    "party_id": 39,
+    "party_name": "เพื่อนเกษตรไทย",
+    "total_vote": "15,606",
+    "total_seat": 0
+  },
+  {
+    "party_id": 40,
+    "party_name": "มหารัฐพัฒนา",
+    "total_vote": "22,221",
+    "total_seat": 0
+  }
+]

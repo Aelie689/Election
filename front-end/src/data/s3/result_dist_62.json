@@ -1,0 +1,2786 @@
+[
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 23246
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 26909
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 3,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 28444
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 4,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 27620
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 27897
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 6,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 28690
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 7,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 25180
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 8,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 29090
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 9,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 34907
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 10,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 30800
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 11,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 34679
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 12,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 30254
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 13,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 27417
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 14,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 31445
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 15,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 31551
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 16,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 31481
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 17,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 25329
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 18,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 35361
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 19,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 28203
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 20,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 40483
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 21,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 35702
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 22,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 34368
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 23,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 27651
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 24,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 38409
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 25,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 38340
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 26,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 30538
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 27,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 29545
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 28,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 29590
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 29,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 28765
+  },
+  {
+    "province_id": "pv1",
+    "province_name": "กรุงเทพมหานคร",
+    "district": 30,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 31394
+  },
+  {
+    "province_id": "pv2",
+    "province_name": "กระบี่",
+    "district": 1,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 44346
+  },
+  {
+    "province_id": "pv2",
+    "province_name": "กระบี่",
+    "district": 2,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 41978
+  },
+  {
+    "province_id": "pv3",
+    "province_name": "กาญจนบุรี",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 39978
+  },
+  {
+    "province_id": "pv3",
+    "province_name": "กาญจนบุรี",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 32882
+  },
+  {
+    "province_id": "pv3",
+    "province_name": "กาญจนบุรี",
+    "district": 3,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 30582
+  },
+  {
+    "province_id": "pv3",
+    "province_name": "กาญจนบุรี",
+    "district": 4,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 30287
+  },
+  {
+    "province_id": "pv3",
+    "province_name": "กาญจนบุรี",
+    "district": 5,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 21363
+  },
+  {
+    "province_id": "pv4",
+    "province_name": "กาฬสินธุ์",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 37532
+  },
+  {
+    "province_id": "pv4",
+    "province_name": "กาฬสินธุ์",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 38058
+  },
+  {
+    "province_id": "pv4",
+    "province_name": "กาฬสินธุ์",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 32469
+  },
+  {
+    "province_id": "pv4",
+    "province_name": "กาฬสินธุ์",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 45662
+  },
+  {
+    "province_id": "pv4",
+    "province_name": "กาฬสินธุ์",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 40262
+  },
+  {
+    "province_id": "pv5",
+    "province_name": "กำแพงเพชร",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 33040
+  },
+  {
+    "province_id": "pv5",
+    "province_name": "กำแพงเพชร",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 34271
+  },
+  {
+    "province_id": "pv5",
+    "province_name": "กำแพงเพชร",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 31127
+  },
+  {
+    "province_id": "pv5",
+    "province_name": "กำแพงเพชร",
+    "district": 4,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 30112
+  },
+  {
+    "province_id": "pv6",
+    "province_name": "ขอนแก่น",
+    "district": 1,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 38717
+  },
+  {
+    "province_id": "pv6",
+    "province_name": "ขอนแก่น",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 46276
+  },
+  {
+    "province_id": "pv6",
+    "province_name": "ขอนแก่น",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 34676
+  },
+  {
+    "province_id": "pv6",
+    "province_name": "ขอนแก่น",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 44815
+  },
+  {
+    "province_id": "pv6",
+    "province_name": "ขอนแก่น",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 39112
+  },
+  {
+    "province_id": "pv6",
+    "province_name": "ขอนแก่น",
+    "district": 6,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 32751
+  },
+  {
+    "province_id": "pv6",
+    "province_name": "ขอนแก่น",
+    "district": 7,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 29745
+  },
+  {
+    "province_id": "pv6",
+    "province_name": "ขอนแก่น",
+    "district": 8,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 53205
+  },
+  {
+    "province_id": "pv6",
+    "province_name": "ขอนแก่น",
+    "district": 9,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 51794
+  },
+  {
+    "province_id": "pv6",
+    "province_name": "ขอนแก่น",
+    "district": 10,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 30111
+  },
+  {
+    "province_id": "pv7",
+    "province_name": "จันทบุรี",
+    "district": 1,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 26805
+  },
+  {
+    "province_id": "pv7",
+    "province_name": "จันทบุรี",
+    "district": 2,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 28750
+  },
+  {
+    "province_id": "pv7",
+    "province_name": "จันทบุรี",
+    "district": 3,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 32687
+  },
+  {
+    "province_id": "pv8",
+    "province_name": "ฉะเชิงเทรา",
+    "district": 1,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 35006
+  },
+  {
+    "province_id": "pv8",
+    "province_name": "ฉะเชิงเทรา",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 44478
+  },
+  {
+    "province_id": "pv8",
+    "province_name": "ฉะเชิงเทรา",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 31265
+  },
+  {
+    "province_id": "pv8",
+    "province_name": "ฉะเชิงเทรา",
+    "district": 4,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 42639
+  },
+  {
+    "province_id": "pv9",
+    "province_name": "ชลบุรี",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 38268
+  },
+  {
+    "province_id": "pv9",
+    "province_name": "ชลบุรี",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 42427
+  },
+  {
+    "province_id": "pv9",
+    "province_name": "ชลบุรี",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 54644
+  },
+  {
+    "province_id": "pv9",
+    "province_name": "ชลบุรี",
+    "district": 4,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 31261
+  },
+  {
+    "province_id": "pv9",
+    "province_name": "ชลบุรี",
+    "district": 5,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 43501
+  },
+  {
+    "province_id": "pv9",
+    "province_name": "ชลบุรี",
+    "district": 6,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 39189
+  },
+  {
+    "province_id": "pv9",
+    "province_name": "ชลบุรี",
+    "district": 7,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 31247
+  },
+  {
+    "province_id": "pv9",
+    "province_name": "ชลบุรี",
+    "district": 8,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 33967
+  },
+  {
+    "province_id": "pv10",
+    "province_name": "ชัยนาท",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 44104
+  },
+  {
+    "province_id": "pv10",
+    "province_name": "ชัยนาท",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 48505
+  },
+  {
+    "province_id": "pv11",
+    "province_name": "ชัยภูมิ",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 38481
+  },
+  {
+    "province_id": "pv11",
+    "province_name": "ชัยภูมิ",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 33614
+  },
+  {
+    "province_id": "pv11",
+    "province_name": "ชัยภูมิ",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 32661
+  },
+  {
+    "province_id": "pv11",
+    "province_name": "ชัยภูมิ",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 41991
+  },
+  {
+    "province_id": "pv11",
+    "province_name": "ชัยภูมิ",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 33296
+  },
+  {
+    "province_id": "pv11",
+    "province_name": "ชัยภูมิ",
+    "district": 6,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 36009
+  },
+  {
+    "province_id": "pv12",
+    "province_name": "ชุมพร",
+    "district": 1,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 43122
+  },
+  {
+    "province_id": "pv12",
+    "province_name": "ชุมพร",
+    "district": 2,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 32564
+  },
+  {
+    "province_id": "pv12",
+    "province_name": "ชุมพร",
+    "district": 3,
+    "party_id": 8,
+    "party_name": "รวมพลังประชาชาติไทย",
+    "vote": 41464
+  },
+  {
+    "province_id": "pv13",
+    "province_name": "เชียงราย",
+    "district": 1,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 30719
+  },
+  {
+    "province_id": "pv13",
+    "province_name": "เชียงราย",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 41603
+  },
+  {
+    "province_id": "pv13",
+    "province_name": "เชียงราย",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 53281
+  },
+  {
+    "province_id": "pv13",
+    "province_name": "เชียงราย",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 62026
+  },
+  {
+    "province_id": "pv13",
+    "province_name": "เชียงราย",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 41125
+  },
+  {
+    "province_id": "pv13",
+    "province_name": "เชียงราย",
+    "district": 6,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 23273
+  },
+  {
+    "province_id": "pv13",
+    "province_name": "เชียงราย",
+    "district": 7,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 32769
+  },
+  {
+    "province_id": "pv14",
+    "province_name": "เชียงใหม่",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 46034
+  },
+  {
+    "province_id": "pv14",
+    "province_name": "เชียงใหม่",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 50127
+  },
+  {
+    "province_id": "pv14",
+    "province_name": "เชียงใหม่",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 64040
+  },
+  {
+    "province_id": "pv14",
+    "province_name": "เชียงใหม่",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 37454
+  },
+  {
+    "province_id": "pv14",
+    "province_name": "เชียงใหม่",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 41169
+  },
+  {
+    "province_id": "pv14",
+    "province_name": "เชียงใหม่",
+    "district": 6,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 23576
+  },
+  {
+    "province_id": "pv14",
+    "province_name": "เชียงใหม่",
+    "district": 7,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 27477
+  },
+  {
+    "province_id": "pv14",
+    "province_name": "เชียงใหม่",
+    "district": 8,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 75891
+  },
+  {
+    "province_id": "pv14",
+    "province_name": "เชียงใหม่",
+    "district": 9,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 39600
+  },
+  {
+    "province_id": "pv15",
+    "province_name": "ตรัง",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 39416
+  },
+  {
+    "province_id": "pv15",
+    "province_name": "ตรัง",
+    "district": 2,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 47814
+  },
+  {
+    "province_id": "pv15",
+    "province_name": "ตรัง",
+    "district": 3,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 51838
+  },
+  {
+    "province_id": "pv16",
+    "province_name": "ตราด",
+    "district": 1,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 36744
+  },
+  {
+    "province_id": "pv17",
+    "province_name": "ตาก",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 43787
+  },
+  {
+    "province_id": "pv17",
+    "province_name": "ตาก",
+    "district": 2,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 32929
+  },
+  {
+    "province_id": "pv17",
+    "province_name": "ตาก",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 20688
+  },
+  {
+    "province_id": "pv18",
+    "province_name": "นครนายก",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 60943
+  },
+  {
+    "province_id": "pv19",
+    "province_name": "นครปฐม",
+    "district": 1,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 35711
+  },
+  {
+    "province_id": "pv19",
+    "province_name": "นครปฐม",
+    "district": 2,
+    "party_id": 13,
+    "party_name": "ชาติไทยพัฒนา",
+    "vote": 30254
+  },
+  {
+    "province_id": "pv19",
+    "province_name": "นครปฐม",
+    "district": 3,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 40661
+  },
+  {
+    "province_id": "pv19",
+    "province_name": "นครปฐม",
+    "district": 4,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 32110
+  },
+  {
+    "province_id": "pv19",
+    "province_name": "นครปฐม",
+    "district": 5,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 34164
+  },
+  {
+    "province_id": "pv20",
+    "province_name": "นครพนม",
+    "district": 1,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 48719
+  },
+  {
+    "province_id": "pv20",
+    "province_name": "นครพนม",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 42990
+  },
+  {
+    "province_id": "pv20",
+    "province_name": "นครพนม",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 33645
+  },
+  {
+    "province_id": "pv20",
+    "province_name": "นครพนม",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 44675
+  },
+  {
+    "province_id": "pv21",
+    "province_name": "นครราชสีมา",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 25982
+  },
+  {
+    "province_id": "pv21",
+    "province_name": "นครราชสีมา",
+    "district": 2,
+    "party_id": 30,
+    "party_name": "ชาติพัฒนา",
+    "vote": 28216
+  },
+  {
+    "province_id": "pv21",
+    "province_name": "นครราชสีมา",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 41695
+  },
+  {
+    "province_id": "pv21",
+    "province_name": "นครราชสีมา",
+    "district": 4,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 39774
+  },
+  {
+    "province_id": "pv21",
+    "province_name": "นครราชสีมา",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 33606
+  },
+  {
+    "province_id": "pv21",
+    "province_name": "นครราชสีมา",
+    "district": 6,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 41676
+  },
+  {
+    "province_id": "pv21",
+    "province_name": "นครราชสีมา",
+    "district": 7,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 35983
+  },
+  {
+    "province_id": "pv21",
+    "province_name": "นครราชสีมา",
+    "district": 8,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 36530
+  },
+  {
+    "province_id": "pv21",
+    "province_name": "นครราชสีมา",
+    "district": 9,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 38632
+  },
+  {
+    "province_id": "pv21",
+    "province_name": "นครราชสีมา",
+    "district": 10,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 51728
+  },
+  {
+    "province_id": "pv21",
+    "province_name": "นครราชสีมา",
+    "district": 11,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 41918
+  },
+  {
+    "province_id": "pv21",
+    "province_name": "นครราชสีมา",
+    "district": 12,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 33823
+  },
+  {
+    "province_id": "pv21",
+    "province_name": "นครราชสีมา",
+    "district": 13,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 39161
+  },
+  {
+    "province_id": "pv21",
+    "province_name": "นครราชสีมา",
+    "district": 14,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 27569
+  },
+  {
+    "province_id": "pv22",
+    "province_name": "นครศรีธรรมราช",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 36521
+  },
+  {
+    "province_id": "pv22",
+    "province_name": "นครศรีธรรมราช",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 34613
+  },
+  {
+    "province_id": "pv22",
+    "province_name": "นครศรีธรรมราช",
+    "district": 3,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 33310
+  },
+  {
+    "province_id": "pv22",
+    "province_name": "นครศรีธรรมราช",
+    "district": 4,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 31323
+  },
+  {
+    "province_id": "pv22",
+    "province_name": "นครศรีธรรมราช",
+    "district": 5,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 32815
+  },
+  {
+    "province_id": "pv22",
+    "province_name": "นครศรีธรรมราช",
+    "district": 6,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 34618
+  },
+  {
+    "province_id": "pv22",
+    "province_name": "นครศรีธรรมราช",
+    "district": 7,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 31531
+  },
+  {
+    "province_id": "pv22",
+    "province_name": "นครศรีธรรมราช",
+    "district": 8,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 41855
+  },
+  {
+    "province_id": "pv23",
+    "province_name": "นครสวรรค์",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 24656
+  },
+  {
+    "province_id": "pv23",
+    "province_name": "นครสวรรค์",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 31051
+  },
+  {
+    "province_id": "pv23",
+    "province_name": "นครสวรรค์",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 32868
+  },
+  {
+    "province_id": "pv23",
+    "province_name": "นครสวรรค์",
+    "district": 4,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 33642
+  },
+  {
+    "province_id": "pv23",
+    "province_name": "นครสวรรค์",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 34311
+  },
+  {
+    "province_id": "pv23",
+    "province_name": "นครสวรรค์",
+    "district": 6,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 25998
+  },
+  {
+    "province_id": "pv24",
+    "province_name": "นนทบุรี",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 31767
+  },
+  {
+    "province_id": "pv24",
+    "province_name": "นนทบุรี",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 28954
+  },
+  {
+    "province_id": "pv24",
+    "province_name": "นนทบุรี",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 32905
+  },
+  {
+    "province_id": "pv24",
+    "province_name": "นนทบุรี",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 33408
+  },
+  {
+    "province_id": "pv24",
+    "province_name": "นนทบุรี",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 33764
+  },
+  {
+    "province_id": "pv24",
+    "province_name": "นนทบุรี",
+    "district": 6,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 32748
+  },
+  {
+    "province_id": "pv25",
+    "province_name": "นราธิวาส",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 32088
+  },
+  {
+    "province_id": "pv25",
+    "province_name": "นราธิวาส",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 34211
+  },
+  {
+    "province_id": "pv25",
+    "province_name": "นราธิวาส",
+    "district": 3,
+    "party_id": 15,
+    "party_name": "ประชาชาติ",
+    "vote": 39438
+  },
+  {
+    "province_id": "pv25",
+    "province_name": "นราธิวาส",
+    "district": 4,
+    "party_id": 15,
+    "party_name": "ประชาชาติ",
+    "vote": 40807
+  },
+  {
+    "province_id": "pv26",
+    "province_name": "น่าน",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 46824
+  },
+  {
+    "province_id": "pv27",
+    "province_name": "บึงกาฬ",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 36117
+  },
+  {
+    "province_id": "pv27",
+    "province_name": "บึงกาฬ",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 35359
+  },
+  {
+    "province_id": "pv28",
+    "province_name": "บุรีรัมย์",
+    "district": 1,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 41513
+  },
+  {
+    "province_id": "pv28",
+    "province_name": "บุรีรัมย์",
+    "district": 2,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 34212
+  },
+  {
+    "province_id": "pv28",
+    "province_name": "บุรีรัมย์",
+    "district": 3,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 45821
+  },
+  {
+    "province_id": "pv28",
+    "province_name": "บุรีรัมย์",
+    "district": 4,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 47481
+  },
+  {
+    "province_id": "pv28",
+    "province_name": "บุรีรัมย์",
+    "district": 5,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 47609
+  },
+  {
+    "province_id": "pv28",
+    "province_name": "บุรีรัมย์",
+    "district": 6,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 41861
+  },
+  {
+    "province_id": "pv28",
+    "province_name": "บุรีรัมย์",
+    "district": 7,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 39282
+  },
+  {
+    "province_id": "pv28",
+    "province_name": "บุรีรัมย์",
+    "district": 8,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 40597
+  },
+  {
+    "province_id": "pv29",
+    "province_name": "ปทุมธานี",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 43437
+  },
+  {
+    "province_id": "pv29",
+    "province_name": "ปทุมธานี",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 45443
+  },
+  {
+    "province_id": "pv29",
+    "province_name": "ปทุมธานี",
+    "district": 3,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 32550
+  },
+  {
+    "province_id": "pv29",
+    "province_name": "ปทุมธานี",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 28600
+  },
+  {
+    "province_id": "pv29",
+    "province_name": "ปทุมธานี",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 35152
+  },
+  {
+    "province_id": "pv29",
+    "province_name": "ปทุมธานี",
+    "district": 6,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 31496
+  },
+  {
+    "province_id": "pv30",
+    "province_name": "ประจวบคีรีขันธ์",
+    "district": 1,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 30181
+  },
+  {
+    "province_id": "pv30",
+    "province_name": "ประจวบคีรีขันธ์",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 32507
+  },
+  {
+    "province_id": "pv30",
+    "province_name": "ประจวบคีรีขันธ์",
+    "district": 3,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 27656
+  },
+  {
+    "province_id": "pv31",
+    "province_name": "ปราจีนบุรี",
+    "district": 1,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 37454
+  },
+  {
+    "province_id": "pv31",
+    "province_name": "ปราจีนบุรี",
+    "district": 2,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 34359
+  },
+  {
+    "province_id": "pv31",
+    "province_name": "ปราจีนบุรี",
+    "district": 3,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 36266
+  },
+  {
+    "province_id": "pv32",
+    "province_name": "ปัตตานี",
+    "district": 1,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 19883
+  },
+  {
+    "province_id": "pv32",
+    "province_name": "ปัตตานี",
+    "district": 2,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 17652
+  },
+  {
+    "province_id": "pv32",
+    "province_name": "ปัตตานี",
+    "district": 3,
+    "party_id": 15,
+    "party_name": "ประชาชาติ",
+    "vote": 36799
+  },
+  {
+    "province_id": "pv32",
+    "province_name": "ปัตตานี",
+    "district": 4,
+    "party_id": 15,
+    "party_name": "ประชาชาติ",
+    "vote": 29323
+  },
+  {
+    "province_id": "pv33",
+    "province_name": "พระนครศรีอยุธยา",
+    "district": 1,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 33632
+  },
+  {
+    "province_id": "pv33",
+    "province_name": "พระนครศรีอยุธยา",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 34503
+  },
+  {
+    "province_id": "pv33",
+    "province_name": "พระนครศรีอยุธยา",
+    "district": 3,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 61916
+  },
+  {
+    "province_id": "pv33",
+    "province_name": "พระนครศรีอยุธยา",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 50646
+  },
+  {
+    "province_id": "pv34",
+    "province_name": "พะเยา",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 52417
+  },
+  {
+    "province_id": "pv34",
+    "province_name": "พะเยา",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 37503
+  },
+  {
+    "province_id": "pv34",
+    "province_name": "พะเยา",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 41885
+  },
+  {
+    "province_id": "pv35",
+    "province_name": "พังงา",
+    "district": 1,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 59985
+  },
+  {
+    "province_id": "pv36",
+    "province_name": "พัทลุง",
+    "district": 1,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 40518
+  },
+  {
+    "province_id": "pv36",
+    "province_name": "พัทลุง",
+    "district": 2,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 47584
+  },
+  {
+    "province_id": "pv36",
+    "province_name": "พัทลุง",
+    "district": 3,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 34406
+  },
+  {
+    "province_id": "pv37",
+    "province_name": "พิจิตร",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 24781
+  },
+  {
+    "province_id": "pv37",
+    "province_name": "พิจิตร",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 21466
+  },
+  {
+    "province_id": "pv37",
+    "province_name": "พิจิตร",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 30441
+  },
+  {
+    "province_id": "pv38",
+    "province_name": "พิษณุโลก",
+    "district": 1,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 35579
+  },
+  {
+    "province_id": "pv38",
+    "province_name": "พิษณุโลก",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 32913
+  },
+  {
+    "province_id": "pv38",
+    "province_name": "พิษณุโลก",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 25207
+  },
+  {
+    "province_id": "pv38",
+    "province_name": "พิษณุโลก",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 40278
+  },
+  {
+    "province_id": "pv38",
+    "province_name": "พิษณุโลก",
+    "district": 5,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 28971
+  },
+  {
+    "province_id": "pv39",
+    "province_name": "เพชรบุรี",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 35106
+  },
+  {
+    "province_id": "pv39",
+    "province_name": "เพชรบุรี",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 34637
+  },
+  {
+    "province_id": "pv39",
+    "province_name": "เพชรบุรี",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 46901
+  },
+  {
+    "province_id": "pv40",
+    "province_name": "เพชรบูรณ์",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 39338
+  },
+  {
+    "province_id": "pv40",
+    "province_name": "เพชรบูรณ์",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 51353
+  },
+  {
+    "province_id": "pv40",
+    "province_name": "เพชรบูรณ์",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 43418
+  },
+  {
+    "province_id": "pv40",
+    "province_name": "เพชรบูรณ์",
+    "district": 4,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 35225
+  },
+  {
+    "province_id": "pv40",
+    "province_name": "เพชรบูรณ์",
+    "district": 5,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 36015
+  },
+  {
+    "province_id": "pv41",
+    "province_name": "แพร่",
+    "district": 1,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 72016
+  },
+  {
+    "province_id": "pv41",
+    "province_name": "แพร่",
+    "district": 2,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 55695
+  },
+  {
+    "province_id": "pv42",
+    "province_name": "ภูเก็ต",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 32338
+  },
+  {
+    "province_id": "pv42",
+    "province_name": "ภูเก็ต",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 27267
+  },
+  {
+    "province_id": "pv43",
+    "province_name": "มหาสารคาม",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 45366
+  },
+  {
+    "province_id": "pv43",
+    "province_name": "มหาสารคาม",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 40176
+  },
+  {
+    "province_id": "pv43",
+    "province_name": "มหาสารคาม",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 36250
+  },
+  {
+    "province_id": "pv43",
+    "province_name": "มหาสารคาม",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 43368
+  },
+  {
+    "province_id": "pv43",
+    "province_name": "มหาสารคาม",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 51379
+  },
+  {
+    "province_id": "pv44",
+    "province_name": "มุกดาหาร",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 37937
+  },
+  {
+    "province_id": "pv44",
+    "province_name": "มุกดาหาร",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 34040
+  },
+  {
+    "province_id": "pv45",
+    "province_name": "แม่ฮ่องสอน",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 29754
+  },
+  {
+    "province_id": "pv46",
+    "province_name": "ยโสธร",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 38473
+  },
+  {
+    "province_id": "pv46",
+    "province_name": "ยโสธร",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 50480
+  },
+  {
+    "province_id": "pv46",
+    "province_name": "ยโสธร",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 40612
+  },
+  {
+    "province_id": "pv47",
+    "province_name": "ยะลา",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 23745
+  },
+  {
+    "province_id": "pv47",
+    "province_name": "ยะลา",
+    "district": 2,
+    "party_id": 15,
+    "party_name": "ประชาชาติ",
+    "vote": 37368
+  },
+  {
+    "province_id": "pv47",
+    "province_name": "ยะลา",
+    "district": 3,
+    "party_id": 15,
+    "party_name": "ประชาชาติ",
+    "vote": 38666
+  },
+  {
+    "province_id": "pv48",
+    "province_name": "ร้อยเอ็ด",
+    "district": 1,
+    "party_id": 13,
+    "party_name": "ชาติไทยพัฒนา",
+    "vote": 44899
+  },
+  {
+    "province_id": "pv48",
+    "province_name": "ร้อยเอ็ด",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 49196
+  },
+  {
+    "province_id": "pv48",
+    "province_name": "ร้อยเอ็ด",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 37557
+  },
+  {
+    "province_id": "pv48",
+    "province_name": "ร้อยเอ็ด",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 50072
+  },
+  {
+    "province_id": "pv48",
+    "province_name": "ร้อยเอ็ด",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 58842
+  },
+  {
+    "province_id": "pv48",
+    "province_name": "ร้อยเอ็ด",
+    "district": 6,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 52734
+  },
+  {
+    "province_id": "pv48",
+    "province_name": "ร้อยเอ็ด",
+    "district": 7,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 51083
+  },
+  {
+    "province_id": "pv49",
+    "province_name": "ระนอง",
+    "district": 1,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 36361
+  },
+  {
+    "province_id": "pv50",
+    "province_name": "ระยอง",
+    "district": 1,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 33342
+  },
+  {
+    "province_id": "pv50",
+    "province_name": "ระยอง",
+    "district": 2,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 35436
+  },
+  {
+    "province_id": "pv50",
+    "province_name": "ระยอง",
+    "district": 3,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 30121
+  },
+  {
+    "province_id": "pv50",
+    "province_name": "ระยอง",
+    "district": 4,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 29077
+  },
+  {
+    "province_id": "pv51",
+    "province_name": "ราชบุรี",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 40937
+  },
+  {
+    "province_id": "pv51",
+    "province_name": "ราชบุรี",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 40030
+  },
+  {
+    "province_id": "pv51",
+    "province_name": "ราชบุรี",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 47091
+  },
+  {
+    "province_id": "pv51",
+    "province_name": "ราชบุรี",
+    "district": 4,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 37423
+  },
+  {
+    "province_id": "pv51",
+    "province_name": "ราชบุรี",
+    "district": 5,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 37425
+  },
+  {
+    "province_id": "pv52",
+    "province_name": "ลพบุรี",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 31650
+  },
+  {
+    "province_id": "pv52",
+    "province_name": "ลพบุรี",
+    "district": 2,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 32816
+  },
+  {
+    "province_id": "pv52",
+    "province_name": "ลพบุรี",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 28326
+  },
+  {
+    "province_id": "pv52",
+    "province_name": "ลพบุรี",
+    "district": 4,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 31669
+  },
+  {
+    "province_id": "pv53",
+    "province_name": "ลำปาง",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 36573
+  },
+  {
+    "province_id": "pv53",
+    "province_name": "ลำปาง",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 35690
+  },
+  {
+    "province_id": "pv53",
+    "province_name": "ลำปาง",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 50653
+  },
+  {
+    "province_id": "pv53",
+    "province_name": "ลำปาง",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 42834
+  },
+  {
+    "province_id": "pv54",
+    "province_name": "ลำพูน",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 51488
+  },
+  {
+    "province_id": "pv54",
+    "province_name": "ลำพูน",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 51197
+  },
+  {
+    "province_id": "pv55",
+    "province_name": "เลย",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 52706
+  },
+  {
+    "province_id": "pv55",
+    "province_name": "เลย",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 55688
+  },
+  {
+    "province_id": "pv55",
+    "province_name": "เลย",
+    "district": 3,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 41763
+  },
+  {
+    "province_id": "pv56",
+    "province_name": "ศรีสะเกษ",
+    "district": 1,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 46922
+  },
+  {
+    "province_id": "pv56",
+    "province_name": "ศรีสะเกษ",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 49901
+  },
+  {
+    "province_id": "pv56",
+    "province_name": "ศรีสะเกษ",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 41002
+  },
+  {
+    "province_id": "pv56",
+    "province_name": "ศรีสะเกษ",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 40166
+  },
+  {
+    "province_id": "pv56",
+    "province_name": "ศรีสะเกษ",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 35794
+  },
+  {
+    "province_id": "pv56",
+    "province_name": "ศรีสะเกษ",
+    "district": 6,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 30989
+  },
+  {
+    "province_id": "pv56",
+    "province_name": "ศรีสะเกษ",
+    "district": 7,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 49123
+  },
+  {
+    "province_id": "pv56",
+    "province_name": "ศรีสะเกษ",
+    "district": 8,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 50433
+  },
+  {
+    "province_id": "pv57",
+    "province_name": "สกลนคร",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 38650
+  },
+  {
+    "province_id": "pv57",
+    "province_name": "สกลนคร",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 34841
+  },
+  {
+    "province_id": "pv57",
+    "province_name": "สกลนคร",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 37644
+  },
+  {
+    "province_id": "pv57",
+    "province_name": "สกลนคร",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 36669
+  },
+  {
+    "province_id": "pv57",
+    "province_name": "สกลนคร",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 46049
+  },
+  {
+    "province_id": "pv57",
+    "province_name": "สกลนคร",
+    "district": 6,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 28212
+  },
+  {
+    "province_id": "pv58",
+    "province_name": "สงขลา",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 37245
+  },
+  {
+    "province_id": "pv58",
+    "province_name": "สงขลา",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 36802
+  },
+  {
+    "province_id": "pv58",
+    "province_name": "สงขลา",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 42390
+  },
+  {
+    "province_id": "pv58",
+    "province_name": "สงขลา",
+    "district": 4,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 32214
+  },
+  {
+    "province_id": "pv58",
+    "province_name": "สงขลา",
+    "district": 5,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 55386
+  },
+  {
+    "province_id": "pv58",
+    "province_name": "สงขลา",
+    "district": 6,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 28465
+  },
+  {
+    "province_id": "pv58",
+    "province_name": "สงขลา",
+    "district": 7,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 31286
+  },
+  {
+    "province_id": "pv58",
+    "province_name": "สงขลา",
+    "district": 8,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 52420
+  },
+  {
+    "province_id": "pv59",
+    "province_name": "สตูล",
+    "district": 1,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 33897
+  },
+  {
+    "province_id": "pv59",
+    "province_name": "สตูล",
+    "district": 2,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 51376
+  },
+  {
+    "province_id": "pv60",
+    "province_name": "สมุทรปราการ",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 34668
+  },
+  {
+    "province_id": "pv60",
+    "province_name": "สมุทรปราการ",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 35707
+  },
+  {
+    "province_id": "pv60",
+    "province_name": "สมุทรปราการ",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 29424
+  },
+  {
+    "province_id": "pv60",
+    "province_name": "สมุทรปราการ",
+    "district": 4,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 36288
+  },
+  {
+    "province_id": "pv60",
+    "province_name": "สมุทรปราการ",
+    "district": 5,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 42117
+  },
+  {
+    "province_id": "pv60",
+    "province_name": "สมุทรปราการ",
+    "district": 6,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 27806
+  },
+  {
+    "province_id": "pv60",
+    "province_name": "สมุทรปราการ",
+    "district": 7,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 27875
+  },
+  {
+    "province_id": "pv61",
+    "province_name": "สมุทรสงคราม",
+    "district": 1,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 26719
+  },
+  {
+    "province_id": "pv62",
+    "province_name": "สมุทรสาคร",
+    "district": 1,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 29912
+  },
+  {
+    "province_id": "pv62",
+    "province_name": "สมุทรสาคร",
+    "district": 2,
+    "party_id": 2,
+    "party_name": "อนาคตใหม่",
+    "vote": 36738
+  },
+  {
+    "province_id": "pv62",
+    "province_name": "สมุทรสาคร",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 25323
+  },
+  {
+    "province_id": "pv63",
+    "province_name": "สระแก้ว",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 63099
+  },
+  {
+    "province_id": "pv63",
+    "province_name": "สระแก้ว",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 52978
+  },
+  {
+    "province_id": "pv63",
+    "province_name": "สระแก้ว",
+    "district": 3,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 41962
+  },
+  {
+    "province_id": "pv64",
+    "province_name": "สระบุรี",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 31035
+  },
+  {
+    "province_id": "pv64",
+    "province_name": "สระบุรี",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 43776
+  },
+  {
+    "province_id": "pv64",
+    "province_name": "สระบุรี",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 32674
+  },
+  {
+    "province_id": "pv65",
+    "province_name": "สิงห์บุรี",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 49101
+  },
+  {
+    "province_id": "pv66",
+    "province_name": "สุโขทัย",
+    "district": 1,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 43957
+  },
+  {
+    "province_id": "pv66",
+    "province_name": "สุโขทัย",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 40419
+  },
+  {
+    "province_id": "pv66",
+    "province_name": "สุโขทัย",
+    "district": 3,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 34884
+  },
+  {
+    "province_id": "pv67",
+    "province_name": "สุพรรณบุรี",
+    "district": 1,
+    "party_id": 13,
+    "party_name": "ชาติไทยพัฒนา",
+    "vote": 67437
+  },
+  {
+    "province_id": "pv67",
+    "province_name": "สุพรรณบุรี",
+    "district": 2,
+    "party_id": 13,
+    "party_name": "ชาติไทยพัฒนา",
+    "vote": 69274
+  },
+  {
+    "province_id": "pv67",
+    "province_name": "สุพรรณบุรี",
+    "district": 3,
+    "party_id": 13,
+    "party_name": "ชาติไทยพัฒนา",
+    "vote": 59783
+  },
+  {
+    "province_id": "pv67",
+    "province_name": "สุพรรณบุรี",
+    "district": 4,
+    "party_id": 13,
+    "party_name": "ชาติไทยพัฒนา",
+    "vote": 59714
+  },
+  {
+    "province_id": "pv68",
+    "province_name": "สุราษฎร์ธานี",
+    "district": 1,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 32092
+  },
+  {
+    "province_id": "pv68",
+    "province_name": "สุราษฎร์ธานี",
+    "district": 2,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 21957
+  },
+  {
+    "province_id": "pv68",
+    "province_name": "สุราษฎร์ธานี",
+    "district": 3,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 44514
+  },
+  {
+    "province_id": "pv68",
+    "province_name": "สุราษฎร์ธานี",
+    "district": 4,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 47416
+  },
+  {
+    "province_id": "pv68",
+    "province_name": "สุราษฎร์ธานี",
+    "district": 5,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 44189
+  },
+  {
+    "province_id": "pv68",
+    "province_name": "สุราษฎร์ธานี",
+    "district": 6,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 41877
+  },
+  {
+    "province_id": "pv69",
+    "province_name": "สุรินทร์",
+    "district": 1,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 31614
+  },
+  {
+    "province_id": "pv69",
+    "province_name": "สุรินทร์",
+    "district": 2,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 35706
+  },
+  {
+    "province_id": "pv69",
+    "province_name": "สุรินทร์",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 29254
+  },
+  {
+    "province_id": "pv69",
+    "province_name": "สุรินทร์",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 34673
+  },
+  {
+    "province_id": "pv69",
+    "province_name": "สุรินทร์",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 45681
+  },
+  {
+    "province_id": "pv69",
+    "province_name": "สุรินทร์",
+    "district": 6,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 23394
+  },
+  {
+    "province_id": "pv69",
+    "province_name": "สุรินทร์",
+    "district": 7,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 29026
+  },
+  {
+    "province_id": "pv70",
+    "province_name": "หนองคาย",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 33676
+  },
+  {
+    "province_id": "pv70",
+    "province_name": "หนองคาย",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 29737
+  },
+  {
+    "province_id": "pv70",
+    "province_name": "หนองคาย",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 44074
+  },
+  {
+    "province_id": "pv71",
+    "province_name": "หนองบัวลำภู",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 36792
+  },
+  {
+    "province_id": "pv71",
+    "province_name": "หนองบัวลำภู",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 25958
+  },
+  {
+    "province_id": "pv71",
+    "province_name": "หนองบัวลำภู",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 41260
+  },
+  {
+    "province_id": "pv72",
+    "province_name": "อ่างทอง",
+    "district": 1,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 62741
+  },
+  {
+    "province_id": "pv73",
+    "province_name": "อำนาจเจริญ",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 26320
+  },
+  {
+    "province_id": "pv73",
+    "province_name": "อำนาจเจริญ",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 26540
+  },
+  {
+    "province_id": "pv74",
+    "province_name": "อุดรธานี",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 30963
+  },
+  {
+    "province_id": "pv74",
+    "province_name": "อุดรธานี",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 32587
+  },
+  {
+    "province_id": "pv74",
+    "province_name": "อุดรธานี",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 36728
+  },
+  {
+    "province_id": "pv74",
+    "province_name": "อุดรธานี",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 47734
+  },
+  {
+    "province_id": "pv74",
+    "province_name": "อุดรธานี",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 40271
+  },
+  {
+    "province_id": "pv74",
+    "province_name": "อุดรธานี",
+    "district": 6,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 42517
+  },
+  {
+    "province_id": "pv74",
+    "province_name": "อุดรธานี",
+    "district": 7,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 46335
+  },
+  {
+    "province_id": "pv74",
+    "province_name": "อุดรธานี",
+    "district": 8,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 58337
+  },
+  {
+    "province_id": "pv75",
+    "province_name": "อุตรดิตถ์",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 54669
+  },
+  {
+    "province_id": "pv75",
+    "province_name": "อุตรดิตถ์",
+    "district": 2,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 51028
+  },
+  {
+    "province_id": "pv76",
+    "province_name": "อุทัยธานี",
+    "district": 1,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 58659
+  },
+  {
+    "province_id": "pv76",
+    "province_name": "อุทัยธานี",
+    "district": 2,
+    "party_id": 7,
+    "party_name": "ภูมิใจไทย",
+    "vote": 35450
+  },
+  {
+    "province_id": "pv77",
+    "province_name": "อุบลราชธานี",
+    "district": 1,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 38660
+  },
+  {
+    "province_id": "pv77",
+    "province_name": "อุบลราชธานี",
+    "district": 2,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 41777
+  },
+  {
+    "province_id": "pv77",
+    "province_name": "อุบลราชธานี",
+    "district": 3,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 44197
+  },
+  {
+    "province_id": "pv77",
+    "province_name": "อุบลราชธานี",
+    "district": 4,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 32167
+  },
+  {
+    "province_id": "pv77",
+    "province_name": "อุบลราชธานี",
+    "district": 5,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 47528
+  },
+  {
+    "province_id": "pv77",
+    "province_name": "อุบลราชธานี",
+    "district": 6,
+    "party_id": 1,
+    "party_name": "พลังประชารัฐ",
+    "vote": 32624
+  },
+  {
+    "province_id": "pv77",
+    "province_name": "อุบลราชธานี",
+    "district": 7,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 34439
+  },
+  {
+    "province_id": "pv77",
+    "province_name": "อุบลราชธานี",
+    "district": 8,
+    "party_id": 4,
+    "party_name": "ประชาธิปัตย์",
+    "vote": 24309
+  },
+  {
+    "province_id": "pv77",
+    "province_name": "อุบลราชธานี",
+    "district": 9,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 33157
+  },
+  {
+    "province_id": "pv77",
+    "province_name": "อุบลราชธานี",
+    "district": 10,
+    "party_id": 3,
+    "party_name": "เพื่อไทย",
+    "vote": 36657
+  }
+]

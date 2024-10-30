@@ -3,17 +3,59 @@ import { purple } from '@mui/material/colors';
 
 const theme = createTheme({
   palette: {
-    primary: {
-      main: purple[500],
+    //black
+    black: {
+      main: '#000000', 
     },
-    secondary: {
-      main: '#f44336',
+    gray: {
+      main: '#CFCFCF',
     },
-    a: {
-        main: '#000000'
+    //เสรีรวมไทย
+    srth: {
+        main: '#CAA110'
     },
-    b: {
-        main: '#453452'
+    // ชาติพัฒนากล้า
+    cpk: {
+        main: '#F9B539'
+    },
+    // เพื่อไทยรวมพลัง
+    pthrpl: {
+        main: '#3E528D'
+    },
+    // ไทยสร้างไทย
+    thsth: {
+        main: '#001B95'
+    },
+    // ประชาชาติ
+    pcc: {
+        main: '#A56F06'
+    },
+    // ชาติไทยพัฒนา
+    cthptn: {
+        main: '#E93196'
+    },
+    // ประชาธิปัตย์
+    pctp: {
+        main: '#23A0DE'
+    },
+    //รวมไทยสร้างชาติ
+    rthsc: {
+        main: '#4F64EA'
+    },
+    //พลังประชารัฐ
+    plpcr: {
+        main: '#235DB5'
+    },
+    //ภูมิใจไทย
+    pcth: {
+        main: '#232AC9'
+    },
+    // เพื่อไทย
+    pth: {
+        main: '#ED2728'
+    },
+    gg: {
+        main: '#F47931'
     }
   },
 });

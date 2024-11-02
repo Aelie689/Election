@@ -1,28 +1,29 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import CandidateInfo from "./pages/Candidate_Info"; // เพจของคุณ
+import TestPage from "./components/Test"; // สมมติว่าเพื่อนคุณมีเพจ Test
 import { Button } from "@mui/material";
-import Test from "./components/Test";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Test />
-        <Button variant="contained">Contained</Button>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          {/* เพิ่มลิงก์สำหรับการนำทาง */}
+          <nav>
+            <Link to="/candidate-info" style={{ margin: '0 10px' }}>Candidate Information</Link>
+            <Link to="/test-page" style={{ margin: '0 10px' }}>Test Page</Link>
+          </nav>
+
+          <Routes>
+            {/* กำหนดเส้นทางไปยังแต่ละหน้า */}
+            <Route path="/candidate-info" element={<CandidateInfo />} />
+            <Route path="/test-page" element={<TestPage />} />
+          </Routes>
+        </header>
+      </div>
+    </Router>
   );
 }
 

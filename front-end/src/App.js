@@ -4,6 +4,7 @@ import CandidateInfo from "./pages/Candidate_Info"; // เพจของคุ�
 import TestPage from "./pages/TestPage"; // สมมติว่าเพื่อนคุณมีเพจ Test
 import { Button } from "@mui/material";
 import "./App.css";
+import Map from "./components/Map";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/test-page" element={<TestPage />} />
           </Routes>
         </header>
+        <Map />
       </div>
     </Router>
   );

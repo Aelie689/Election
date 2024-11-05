@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import District from './District';
-import MockData from '../fileField/MockData.csv';
+import MockData from '../data/fileField/MockData.csv';
 import './Map.css';
 
 const partyColorMap = {

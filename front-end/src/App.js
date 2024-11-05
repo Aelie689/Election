@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import CandidateInfo from "./pages/Candidate_Info"; // เพจของคุณ
-import TestPage from "./components/Test"; // สมมติว่าเพื่อนคุณมีเพจ Test
+import TestPage from "./pages/TestPage"; // สมมติว่าเพื่อนคุณมีเพจ Test
 import { Button } from "@mui/material";
 import "./App.css";
 

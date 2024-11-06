@@ -51,11 +51,20 @@ app.get("/get-max-vote-district", (req, res) => {
     })
 })
 
+app.get("/all-table", (req, res) => {
+    const q = `SELECT * from party;`
+    db.query(q, (err, data) => {
+        if(err) return res.json(err)
+        
+        return res.json(data)
+    }
+    )
+})
 
 app.get("/get-party-rank", (req, res) => {
     const columns = Array.from({ length: 77 }, (_, i) => `pv${i + 1}`);
 
-    const q = ` SELECT p.id AS party_id, p.name AS party_name, total_votes.total_vote, total_seats.total_seat
+    const q = ` SELECT p.id AS party_id, p.name AS party_name, p.color_code, total_votes.total_vote, total_seats.total_seat
                 FROM party p
                 LEFT JOIN (
                     SELECT rp.party_id, (${columns.join(" + ")}) AS total_vote
@@ -82,6 +91,7 @@ app.get("/get-party-rank", (req, res) => {
         return res.json(data);
     });
 });
+
 
 
 

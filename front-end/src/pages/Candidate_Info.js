@@ -6,14 +6,13 @@ import {
   CardContent,
   ToggleButton,
   ToggleButtonGroup,
-  TextField
+  TextField,
 } from "@mui/material";
-import Papa from "papaparse";
+import axios from "axios";
 
-// Function to generate a random color from a predefined set of colors
-const getRandomColor = () => {
-  const colors = ['#001B95', '#ED2728', '#F47931']; // Blue, Red, and Orange
-  return colors[Math.floor(Math.random() * colors.length)];
+// Function to determine the background color based on the party color
+const getBackgroundColor = (partyColor) => {
+  return partyColor ? `#${partyColor}` : "#CCCCCC";
 };
 
 const CandidateInfo = () => {
@@ -22,20 +21,10 @@ const CandidateInfo = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredCandidates, setFilteredCandidates] = useState([]);
 
-  const loadCSVData = (url, setData) => {
-    Papa.parse(url, {
-      download: true,
-      header: true,
-      complete: (result) => {
-        setData(result.data);
-      },
-    });
-  };
-
   const handleTypeChange = (event, newType) => {
     if (newType !== null) {
       setType(newType);
-      setSearchQuery(""); // Clear search query when switching types
+      setSearchQuery("");
     }
   };
 
@@ -43,33 +32,61 @@ const CandidateInfo = () => {
     setSearchQuery(event.target.value);
   };
 
-  // Filter candidates based on search query
+  // Fetch data from API
+  useEffect(() => {
+    axios
+      .get("http://localhost:8800/candidates")
+      .then((response) => {
+        const data = Array.isArray(response.data) ? response.data : [];
+        setCandidates(data);
+      })
+      .catch((error) => console.error("Error fetching data:", error));
+  }, []);
+
+  // Filter candidates based on search query and selected type
   useEffect(() => {
     setFilteredCandidates(
       candidates.filter((candidate) =>
-        candidate["ชื่อผู้สมัคร"]?.toLowerCase().includes(searchQuery.toLowerCase())
+        candidate.name?.toLowerCase().includes(searchQuery.toLowerCase()) &&
+        candidate.type?.toLowerCase() === type.toLowerCase() // กรองข้อมูลตาม type
       )
     );
-  }, [searchQuery, candidates]);
-
-  // Load CSV data based on type
-  useEffect(() => {
-    if (type === "Constituency") {
-      loadCSVData(process.env.PUBLIC_URL + "/fileField/Constituency66.csv", setCandidates);
-    } else {
-      loadCSVData(process.env.PUBLIC_URL + "/fileField/Party66.csv", setCandidates);
-    }
-  }, [type]);
+  }, [searchQuery, candidates, type]);
 
   return (
-    <div style={{ backgroundColor: "#ffffff", minHeight: "100vh", padding: "20px" }}>
-      <div style={{ backgroundColor: "#000000", padding: "20px", borderRadius: "5px", marginBottom: "20px" }}>
-        <Typography variant="h4" gutterBottom style={{ color: "#ffffff", textAlign: "center" }}>
+    <div
+      style={{
+        backgroundColor: "#ffffff",
+        minHeight: "100vh",
+        padding: "20px",
+      }}
+    >
+      <div
+        style={{
+          backgroundColor: "#000000",
+          padding: "20px",
+          borderRadius: "5px",
+          marginBottom: "20px",
+        }}
+      >
+        <Typography
+          variant="h4"
+          gutterBottom
+          style={{ color: "#ffffff", textAlign: "center" }}
+        >
           Thailand Election Insight
         </Typography>
       </div>
 
-      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "10px", marginBottom: "20px" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: "10px",
+          marginBottom: "20px",
+        }}
+      >
         <TextField
           label="Search by Name"
           variant="outlined"
@@ -93,39 +110,36 @@ const CandidateInfo = () => {
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Card
               style={{
-                backgroundColor: getRandomColor(), // Apply random color from blue, red, orange
-                borderRadius: '10px',
-                color: '#ffffff',
-                padding: '10px',
-                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                margin: '10px'
+                backgroundColor: getBackgroundColor(candidate.party_color),
+                borderRadius: "10px",
+                color: "#ffffff",
+                padding: "10px",
+                boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+                margin: "10px",
               }}
             >
               <CardContent>
-                {type === "Constituency" ? (
-                  <>
-                    <Typography variant="body1">ชื่อผู้สมัคร: {candidate["ชื่อผู้สมัคร"]}</Typography>
-                    <Typography variant="body2">พรรค: {candidate["พรรค"]}</Typography>
-                    <Typography variant="body2">จังหวัด: {candidate["จังหวัด"]}</Typography>
-                    <Typography variant="body2">เขต: {candidate["เขต"]}</Typography>
-                    <Typography variant="body2">หมายเลข: {candidate["หมายเลข"]}</Typography>
-                    <Typography variant="body2">วุฒิการศึกษา: {candidate["วุฒิการศึกษา"]}</Typography>
-                    <Typography variant="body2">เพศ: {candidate["เพศ"]}</Typography>
-                    <Typography variant="body2">ช่วงอายุ: {candidate["ช่วงอายุ"]}</Typography>
-                    <Typography variant="body2">อาชีพ: {candidate["อาชีพ"]}</Typography>
-                  </>
-                ) : (
-                  <>
-                    <Typography variant="body1">ชื่อผู้สมัคร: {candidate["ชื่อผู้สมัคร"]}</Typography>
-                    <Typography variant="body2">พรรค: {candidate["พรรค"]}</Typography>
-                    <Typography variant="body2">หมายเลข: {candidate["หมายเลข"]}</Typography>
-                    <Typography variant="body2">ลำดับในบัญชี: {candidate["ลำดับในบัญชี"]}</Typography>
-                    <Typography variant="body2">การศึกษาสูงสุด: {candidate["การศึกษาสูงสุด"]}</Typography>
-                    <Typography variant="body2">เพศ: {candidate["เพศ"]}</Typography>
-                    <Typography variant="body2">ช่วงอายุ: {candidate["ช่วงอายุ"]}</Typography>
-                    <Typography variant="body2">อาชีพ: {candidate["อาชีพ"]}</Typography>
-                  </>
-                )}
+                <Typography variant="body1">
+                  ชื่อผู้สมัคร: {candidate.name}
+                </Typography>
+                <Typography variant="body2">
+                  หมายเลข: {candidate.number}
+                </Typography>
+                <Typography variant="body2">
+                  พรรค: {candidate.party_name || "ไม่ระบุ"}
+                </Typography>
+                <Typography variant="body2">
+                  จังหวัด: {candidate.province_name || "ไม่ระบุ"}
+                </Typography>
+                <Typography variant="body2">
+                  วุฒิการศึกษา: {candidate.education}
+                </Typography>
+                <Typography variant="body2">เพศ: {candidate.gender}</Typography>
+                <Typography variant="body2">ช่วงอายุ: {candidate.age}</Typography>
+                <Typography variant="body2">
+                  อาชีพ: {candidate.occupation}
+                </Typography>
+                <Typography variant="body2">เขต: {candidate.district}</Typography>
               </CardContent>
             </Card>
           </Grid>

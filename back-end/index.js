@@ -93,6 +93,38 @@ app.get("/get-party-rank", (req, res) => {
 });
 
 
+app.get("/candidates", (req, res) => {
+    const query = `
+        SELECT 
+            candidates.id,
+            candidates.name,
+            candidates.number,
+            candidates.education,
+            candidates.gender,
+            candidates.age,
+            candidates.occupation,
+            candidates.district,
+            candidates.type,
+            candidates.province_id,
+            candidates.party_id,
+            IFNULL(province.name, 'ไม่ระบุ') AS province_name,
+            IFNULL(party.name, 'ไม่ระบุ') AS party_name,
+            IFNULL(party.color_code, '#CCCCCC') AS party_color
+        FROM candidates
+        LEFT JOIN province ON candidates.province_id = province.id
+        LEFT JOIN party ON candidates.party_id = party.id;
+    `;
+    
+    db.query(query, (err, data) => {
+        if (err) {
+            console.error('Error fetching candidates:', err);
+            return res.status(500).json({ error: err.code, message: err.message });
+        }
+        console.log('Data fetched from database:', data);
+        return res.json(data);
+    });
+});
+
 
 
 app.listen(8800, ()=>{

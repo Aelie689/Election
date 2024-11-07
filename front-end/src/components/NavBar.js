@@ -8,49 +8,39 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 
 const pages = [
-  { label: 'Candidate Information', path: '/candidate-info' },
-  { label: 'Login', path: '/login' }
+  { label: "Candidate Information", path: "/candidate-info" },
+  { label: "Login", path: "/login" },
 ];
 
 export default function NavBar() {
   return (
-    <AppBar position="static" style={{ background: '#000000' }}>
+    <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Typography
-            variant="h5"
-            sx={{ pr: 2, fontWeight: 'bold' }}
-          >
-            THAILAND
-          </Typography>
-          <Typography
-            variant="h6"
-          >
-            ELECTION INSIGHT
-          </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, pl: 5 }}>
+          <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+            <Box sx={{ display: "flex", alignItems: "center" }}>
+              <Typography variant="h5" sx={{ pr: 2, fontWeight: "bold" }}>
+                THAILAND
+              </Typography>
+              <Typography variant="h6">ELECTION INSIGHT</Typography>
+            </Box>
+          </Link>
+          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" }, pl: 5 }}>
             {pages.map((page) => (
               <Button
                 key={page.label}
                 component={Link}
                 to={page.path} // Use the 'path' property for navigation
-                sx={{ mx: 1, color: 'white', display: 'block' }}
+                sx={{ mx: 1, color: "white", display: "block" }}
               >
                 {page.label}
               </Button>
             ))}
           </Box>
-          <Typography
-            variant="body2"
-            sx={{ pr: 2 }}
-          >
+          <Typography variant="body2" sx={{ pr: 2 }}>
             DES424
           </Typography>
-          <Typography
-            variant="body2"
-          >
-            GROUP 1
-          </Typography>
+          <Typography variant="body2">GROUP 1</Typography>
         </Toolbar>
       </Container>
     </AppBar>

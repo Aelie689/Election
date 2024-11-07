@@ -4,6 +4,9 @@ import { purple } from '@mui/material/colors';
 const theme = createTheme({
   palette: {
     //black
+    primary: {
+        main: '#000000',
+        },
     black: {
       main: '#000000', 
     },

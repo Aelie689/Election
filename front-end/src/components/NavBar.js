@@ -17,7 +17,7 @@ export default function NavBar() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+          <Link to="/province-map" style={{ textDecoration: "none", color: "inherit" }}>
             <Box sx={{ display: "flex", alignItems: "center" }}>
               <Typography variant="h5" sx={{ pr: 2, fontWeight: "bold" }}>
                 THAILAND

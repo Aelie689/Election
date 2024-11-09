@@ -18,33 +18,33 @@ export default function LogIn() {
   const handleSubmit = async (event) => {
     console.log("handleSubmit");
     
-//     event.preventDefault();
-//     const data = new FormData(event.currentTarget);
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
 
-//     try {
-//       const response = await fetch("http://localhost:5050/user/authenticateUser", {
-//         method: "POST",
-//         headers: {
-//           "Content-Type": "application/json",
-//         },
-//         body: JSON.stringify({
-//           username: data.get("username"),
-//           password: data.get("password"),
-//         }),
-//       });
+    try {
+      const response = await fetch("http://localhost:5050/user/authenticateUser", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          username: data.get("username"),
+          password: data.get("password"),
+        }),
+      });
 
-//       if (!response.ok) {
-//         throw new Error(`HTTP error! Status: ${response.status}`);
-//       }
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
 
-//       const authenticatedUser = await response.json();
-//       loginUser(authenticatedUser);
-//       login();
-//       navigate("/");
-//     } catch (error) {
-//       console.error("Error:", error);
-//       setError("Incorrect username or password");
-//     }
+      const authenticatedUser = await response.json();
+      loginUser(authenticatedUser);
+      login();
+      navigate("/");
+    } catch (error) {
+      console.error("Error:", error);
+      setError("Incorrect username or password");
+    }
   };
 
   return (

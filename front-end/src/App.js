@@ -5,9 +5,9 @@ import { Button } from "@mui/material";
 import { UserProvider } from "./context/UserContext";
 import { AuthProvider } from "./context/AuthContext";
 import NavBar from "./components/NavBar";
-import MainPage from "./pages/MainPage";
-import CandidateInfo from "./pages/Candidate_Info"; 
+import CandidateInfo from "./pages/CandidatePage"; 
 import LogIn from "./pages/LoginPage";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <div>
             <NavBar />
             <Routes>
-              <Route path="/" element={<MainPage />} />
+              <Route path="/" element={<LandingPage />} />
               <Route path="/login" element={<LogIn />} />
               <Route path="/candidate-info" element={<CandidateInfo />} />
             </Routes>

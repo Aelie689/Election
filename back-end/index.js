@@ -120,7 +120,6 @@ app.get("/candidates", (req, res) => {
             console.error('Error fetching candidates:', err);
             return res.status(500).json({ error: err.code, message: err.message });
         }
-        console.log('Data fetched from database:', data);
         return res.json(data);
     });
 });

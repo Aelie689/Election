@@ -9,6 +9,7 @@ import CandidateInfo from "./pages/CandidatePage";
 import LogIn from "./pages/LoginPage";
 import LandingPage from "./pages/LandingPage";
 import ComparePage from "./pages/ComparePage";
+import HistoricalPage from "./pages/HistoricalPage";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
               <Route path="/" element={<LandingPage />} />
               <Route path="/login" element={<LogIn />} />
               <Route path="/candidate-info" element={<CandidateInfo />} />
-              <Route path="/history" element={<ComparePage />} />
+              <Route path="/history" element={<HistoricalPage />} />
+              <Route path="/compare-history" element={<ComparePage />} />
             </Routes>
           </div>
         </UserProvider>

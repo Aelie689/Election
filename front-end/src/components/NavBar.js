@@ -10,6 +10,7 @@ import Button from "@mui/material/Button";
 const pages = [
   { label: "Candidate Information", path: "/candidate-info" },
   { label: "Login", path: "/login" },
+  { label: "History", path: "/history"}
 ];
 
 export default function NavBar() {

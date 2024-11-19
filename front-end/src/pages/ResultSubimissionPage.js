@@ -20,7 +20,7 @@ export default function ResultSubmissionPage() {
     }
     if (consResults.length > 0) {
       try {
-        const response = await fetch("http://54.89.150.78:8800/result-submit-constituency", {
+        const response = await fetch("http://g01-load-balancer-1682353680.us-east-1.elb.amazonaws.com:8800/api/result-submit-constituency", {
           method: "PUT",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(consResults),
@@ -39,7 +39,7 @@ export default function ResultSubmissionPage() {
     }
     if (partyResults.length > 0) {
       try {
-        const response = await fetch("http://54.89.150.78:8800/result-submit-partylist", {
+        const response = await fetch("http://g01-load-balancer-1682353680.us-east-1.elb.amazonaws.com:8800/api/result-submit-partylist", {
           method: "PUT",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(partyResults),

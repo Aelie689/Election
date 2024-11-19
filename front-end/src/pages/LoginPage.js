@@ -21,7 +21,7 @@ export default function LogIn() {
     const data = new FormData(event.currentTarget);
 
     try {
-      const response = await fetch("http://54.89.150.78:8800/authenticate-user", {
+      const response = await fetch("http://g01-load-balancer-1682353680.us-east-1.elb.amazonaws.com:8800/api/authenticate-user", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

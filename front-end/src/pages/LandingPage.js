@@ -11,8 +11,8 @@ export default function LandingPage() {
     const fetchData = async () => {
       try {
         const [partyResponse, provinceResponse] = await Promise.all([
-          fetch("http://54.89.150.78:8800/get-party-rank"),
-          fetch("http://54.89.150.78:8800/get-max-vote-district"),
+          fetch("http://g01-load-balancer-1682353680.us-east-1.elb.amazonaws.com:8800/api/get-party-rank"),
+          fetch("http://g01-load-balancer-1682353680.us-east-1.elb.amazonaws.com:8800/api/get-max-vote-district"),
         ]);
 
         const partyData = await partyResponse.json();

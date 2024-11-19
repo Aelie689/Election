@@ -82,7 +82,7 @@ export default function ConsForm({ setResults, consResults }) {
   };
 
   useEffect(() => {
-    fetch("http://54.89.150.78:8800/dist-info")
+    fetch("http://g01-load-balancer-1682353680.us-east-1.elb.amazonaws.com:8800/api/dist-info")
       .then((response) => response.json())
       .then((data) => {
         console.log("District Info:", data);
@@ -92,7 +92,7 @@ export default function ConsForm({ setResults, consResults }) {
   }, []);
 
   useEffect(() => {
-    fetch("http://54.89.150.78:8800/province-name")
+    fetch("http://g01-load-balancer-1682353680.us-east-1.elb.amazonaws.com:8800/api/province-name")
       .then((response) => response.json())
       .then((data) => {
         // Sort provinces by Thai alphabetical order

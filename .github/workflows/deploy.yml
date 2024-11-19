@@ -28,7 +28,8 @@ jobs:
       - name: Add EC2 host to known hosts
         run: |
           mkdir -p ~/.ssh
-          ssh-keyscan -H 54.89.150.78 >> ~/.ssh/known_hosts
+          ssh-keyscan -H 54.198.154.79 >> ~/.ssh/known_hosts
+          ssh-keyscan -H 3.220.169.199 >> ~/.ssh/known_hosts  
 
       # Step 5: Save SSH private key to a file
       - name: Save secret to file
@@ -38,24 +39,30 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      # Step 6: SSH into EC2 and update code, build, and restart services
-      - name: SSH into EC2 and update code, build, and restart services
+      # Step 6: SSH into EC2, update code, copy build, and restart services on all instances
+      - name: SSH into EC2 instances and update code, build, and restart services
         run: |
-          ssh -i private-key.pem ubuntu@54.89.150.78 << 'EOF'
-            # Navigate to the backend directory and pull latest code
-            cd ~/DES424_ElectionDashboard/back-end
-            git pull origin main
-            npm install  # Install any missing dependencies
+          for EC2 in "54.198.154.79" "3.220.169.199"; do
+            ssh -i private-key.pem ubuntu@$EC2 << 'EOF'
+              # Navigate to the backend directory and pull the latest code
+              cd ~/DES424_ElectionDashboard/back-end
+              git pull origin main
+              npm install  # Install any missing dependencies
 
-            # Restart the backend service using PM2
-            pm2 restart back-end
+              # Start backend using PM2 (if not already running)
+              pm2 start back-end --name back-end || pm2 restart back-end
+              pm2 save  # Save the pm2 process for auto-restart
 
-            # Navigate to the frontend directory, pull latest code, and rebuild
-            cd ~/DES424_ElectionDashboard/front-end
-            git pull origin main
-            npm install  # Install any missing dependencies
-            npm run build  # Rebuild the frontend
+              # Navigate to the frontend directory, pull latest code, and rebuild
+              cd ~/DES424_ElectionDashboard/front-end
+              git pull origin main
+              npm install  # Install any missing dependencies
+              npm run build  # Rebuild the frontend
 
-            # Restart Nginx (optional, if needed)
-            sudo systemctl restart nginx
+              # Copy the build directory to the appropriate location for Nginx
+              sudo cp -r ~/DES424_ElectionDashboard/front-end/build/* /var/www/frontend/
+
+              # Restart Nginx to serve the new build
+              sudo systemctl restart nginx
           EOF
+          done

@@ -46,7 +46,7 @@ jobs:
             ssh -i private-key.pem ubuntu@$EC2 << 'EOF'
               # Navigate to the backend directory and pull the latest code
               cd ~/DES424_ElectionDashboard/back-end
-              git pull origin main
+              git pull origin main --rebase
               npm install  # Install any missing dependencies
 
               # Start backend using PM2 (if not already running)
@@ -55,7 +55,7 @@ jobs:
 
               # Navigate to the frontend directory, pull latest code, and rebuild
               cd ~/DES424_ElectionDashboard/front-end
-              git pull origin main
+              git pull origin main --rebase
               npm install  # Install any missing dependencies
               npm run build  # Rebuild the frontend
 

@@ -119,14 +119,13 @@
   flex-wrap: wrap;
 }
 .map-container {
-  background-color: #FCFCFC;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   padding: 20px 10px 20px 10px;
-  border-radius: 20px;
   gap: 10px;
+  height: 900px;
 }
 
 @media (max-width: 768px) {

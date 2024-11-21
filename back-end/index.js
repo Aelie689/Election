@@ -299,7 +299,7 @@ app.put("/result-submit-constituency", async (req, res) => {
       }
 
       const updateResultSql =
-        "UPDATE result_dist_test SET vote = ? WHERE candidate_id = ? AND province_id = ? AND district = ? AND number = ? AND party_id = ?";
+        "UPDATE result_dist SET vote = ? WHERE candidate_id = ? AND province_id = ? AND district = ? AND number = ? AND party_id = ?";
 
       await new Promise((resolve, reject) =>
         db.query(
@@ -336,7 +336,7 @@ app.put("/result-submit-constituency", async (req, res) => {
 
 app.get("/dist-info", (req, res) => {
   const q =
-    "SELECT candidate_id, party_id, province_id, district, number FROM result_dist_test;";
+    "SELECT candidate_id, party_id, province_id, district, number FROM result_dist;";
   db.query(q, (err, data) => {
     if (err) return res.json(err);
 
@@ -376,7 +376,7 @@ app.put("/result-submit-partylist", async (req, res) => {
       }
 
       // Dynamically construct the SQL query
-      const updateResultSql = `UPDATE result_party_test SET \`${province_id}\` = ? WHERE party_id = ?`;
+      const updateResultSql = `UPDATE result_party SET \`${province_id}\` = ? WHERE party_id = ?`;
 
       // Perform the query
       await new Promise((resolve, reject) =>
@@ -437,7 +437,7 @@ app.put("/result-submit-constituency", async (req, res) => {
       }
 
       const updateResultSql =
-        "UPDATE result_dist_test SET vote = ? WHERE candidate_id = ? AND province_id = ? AND district = ? AND number = ? AND party_id = ?";
+        "UPDATE result_dist SET vote = ? WHERE candidate_id = ? AND province_id = ? AND district = ? AND number = ? AND party_id = ?";
 
       await new Promise((resolve, reject) =>
         db.query(
@@ -474,7 +474,7 @@ app.put("/result-submit-constituency", async (req, res) => {
 
 app.get("/dist-info", (req, res) => {
   const q =
-    "SELECT candidate_id, party_id, province_id, district, number FROM result_dist_test;";
+    "SELECT candidate_id, party_id, province_id, district, number FROM result_dist;";
   db.query(q, (err, data) => {
     if (err) return res.json(err);
 
@@ -514,7 +514,7 @@ app.put("/result-submit-partylist", async (req, res) => {
       }
 
       // Dynamically construct the SQL query
-      const updateResultSql = `UPDATE result_party_test SET \`${province_id}\` = ? WHERE party_id = ?`;
+      const updateResultSql = `UPDATE result_party SET \`${province_id}\` = ? WHERE party_id = ?`;
 
       // Perform the query
       await new Promise((resolve, reject) =>

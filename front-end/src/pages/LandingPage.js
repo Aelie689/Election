@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Box, Container } from "@mui/material";
 import PartyListRank from "../components/PartyListRank";
 import Province from "../components/Map";
+import partyColors from  "../data/s3/party_color.json"
 
 export default function LandingPage() {
   const [provinceData, setProvinceData] = useState([]);
@@ -45,14 +46,25 @@ export default function LandingPage() {
         px: "48px!important",
       }}
     >
-      <Container sx={{ px: "0!important" }}>
-        <Province data={provinceData} />
+      <Container
+          sx={{
+            background: "#FCFCFC",
+            maxHeight: "940",
+            borderRadius: "20px",
+            boxShadow: 3,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            px: "0!important"
+          }}
+        >
+        <Province data={provinceData} partyColors={partyColors} />
       </Container>
 
       <Container
         sx={{
           background: "#FCFCFC",
-          maxHeight: 840,
+          maxHeight: 940,
           overflowY: "auto",
           borderRadius: "20px",
           boxShadow: 3,

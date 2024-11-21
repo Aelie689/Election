@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Box, Container, Typography } from "@mui/material";
 import PartyListRank from "../components/PartyListRank";
 import { fetchDataFromS3 } from "../s3Fetch";
+import partyColors from  "../data/s3/party_color.json"
 
 export default function ComparePage() {
   const [data50, setData50] = useState([]);
@@ -19,7 +20,8 @@ export default function ComparePage() {
 
         const updateData = (data) => data.map((party) => ({
           ...party,
-          color_code: party.color_code ? `#${party.color_code}` : "#000000",
+          color_code: partyColors[party.party_name] || "#000000",
+          // color_code: party.color_code ? `#${party.color_code}` : "#000000",
           total_seat: party.total_seat ?? 0,
         }))
         .sort((a, b) => b.total_seat - a.total_seat);

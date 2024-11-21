@@ -62,10 +62,10 @@ export default function ResultSubmissionPage() {
   };
 
   return (
-    <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-      <Grid container spacing={4}>
+    <Container maxWidth="lg" sx={{ mt: 4, mb: 4}}>
+      <Grid container spacing={4} pr={6}>
         <Grid item xs={12}>
-          <Paper elevation={3} sx={{ p: 3, height: "400px", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+          <Paper elevation={3} sx={{ p: 3, height: "400px", display: "flex", flexDirection: "column", justifyContent: "center", width: "100%" }}>
             <Box textAlign="center" mb={3}>
               <Typography variant="h4" fontWeight="bold">
                 Constituency Result Submission
@@ -76,7 +76,7 @@ export default function ResultSubmissionPage() {
           </Paper>
         </Grid>
         <Grid item xs={12}>
-          <Paper elevation={3} sx={{ p: 3, height: "400px", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+          <Paper elevation={3} sx={{ p: 3, height: "400px", display: "flex", flexDirection: "column", justifyContent: "center", width: "100%"}}>
             <Box textAlign="center" mb={3}>
               <Typography variant="h4" fontWeight="bold">
                 Party List Result Submission

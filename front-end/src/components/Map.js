@@ -1,23 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import District from './District';
-import MockData from '../data/fileField/MockData.csv';
 import './Map.css';
-
-const partyColorMap = {
-    "ก้าวไกล": "#F47931",
-    "เพื่อไทย": "#E93196",
-    "เพื่อไทย": "#ED2728",
-    "ภูมิใจไทย": "#232AC9",
-    "พลังประชารัฐ": "#235DB5",
-    "รวมไทยสร้างชาติ": "#4F64EA",
-    "ประชาธิปัตย์": "#23A0DE",
-    "ชาติไทยพัฒนา": "#E93196",
-    "ประชาชาติ": "#A56F06",
-    "ไทยสร้างไทย": "#001B95",
-    "เพื่อไทรวมพลัง": "#3E528D",
-    "ชาติพัฒนากล้า": "#F9B539",
-    "เสรีรวมไทย": "#CAA110",
-};
 
 const ProvinceComponent = ({ provinceName, districts, colors, layout }) => (
     <div className={`province ${layout}`}>
@@ -30,7 +13,7 @@ const ProvinceComponent = ({ provinceName, districts, colors, layout }) => (
     </div>
 );
 
-const Province = ({ data }) => {
+const Province = ({ data, partyColors }) => {
     
     const customProvinceOrder = [
         "แม่ฮ่องสอน", "เชียงใหม่", "เชียงราย", "พะเยา", "น่าน", "ลำปาง", "แพร่","อุตรดิตถ์", "ลำพูน", "สุโขทัย",
@@ -50,7 +33,7 @@ const Province = ({ data }) => {
             result.push(provinceEntry);
         }
         provinceEntry.districts.push(district);
-        provinceEntry.colors.push(partyColorMap[party_name] || "grey");
+        provinceEntry.colors.push(partyColors[party_name] || "black");
 
         const districtCount = provinceEntry.districts.length;
         if (districtCount === 1 || districtCount === 2) provinceEntry.layout = "one-two-district";

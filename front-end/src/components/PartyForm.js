@@ -65,7 +65,7 @@ export default function PartyForm({ setPartyResults, partyResults}) {
   }, [partyResults]);
     
   useEffect(() => {
-    fetch("http://g01-LBC-1208421005.us-east-1.elb.amazonaws.com:8800/api/party-name")
+    fetch("http://g01-LBC-1208421005.us-east-1.elb.amazonaws.com:8800/party-name")
       .then((response) => response.json())
       .then((data) => {
         const sortedParties = data.sort((a, b) =>
@@ -77,7 +77,7 @@ export default function PartyForm({ setPartyResults, partyResults}) {
   }, []);
 
   useEffect(() => {
-    fetch("http://g01-LBC-1208421005.us-east-1.elb.amazonaws.com:8800/api/province-name")
+    fetch("http://g01-LBC-1208421005.us-east-1.elb.amazonaws.com:8800/province-name")
       .then((response) => response.json())
       .then((data) => {
         // Sort provinces by Thai alphabetical order

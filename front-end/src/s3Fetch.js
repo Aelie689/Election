@@ -1,5 +1,5 @@
 export async function fetchDataFromS3(key) {
-    const BUCKET_URL = "https://g01-election-dashboard.s3.us-east-1.amazonaws.com/";
+    const BUCKET_URL = "https://g01-bucket.s3.us-east-1.amazonaws.com/";
   
     try {
       const response = await fetch(`${BUCKET_URL}${key}`);

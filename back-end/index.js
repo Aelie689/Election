@@ -29,11 +29,10 @@ db.connect((err) => {
   }
 });
 
-// Candidate endpoint with type and pagination
 app.get("/candidates", (req, res) => {
-  const limit = parseInt(req.query.limit) || 100; // จำนวนข้อมูลต่อหน้า
-  const offset = parseInt(req.query.offset) || 0; // เริ่มจากแถวที่
-  const type = req.query.type || "Constituency"; // Default type is "Constituency"
+  const limit = parseInt(req.query.limit) || 100; 
+  const offset = parseInt(req.query.offset) || 0; 
+  const type = req.query.type || "Constituency"; 
 
   const query = `
     SELECT 
@@ -84,7 +83,6 @@ app.get("/candidates", (req, res) => {
   });
 });
 
-// Other endpoints
 app.get("/get-max-vote-district", (req, res) => {
   const q = `
     SELECT rd.province_id, pv.name AS province_name, rd.district, 
@@ -145,37 +143,6 @@ app.get("/get-party-rank", (req, res) => {
   db.query(q, (err, data) => {
     if (err) return res.json(err);
 
-    return res.json(data);
-  });
-});
-
-app.get("/candidates", (req, res) => {
-  const query = `
-        SELECT 
-            candidates.id,
-            candidates.name,
-            candidates.number,
-            candidates.education,
-            candidates.gender,
-            candidates.age,
-            candidates.occupation,
-            candidates.district,
-            candidates.type,
-            candidates.province_id,
-            candidates.party_id,
-            IFNULL(province.name, 'ไม่ระบุ') AS province_name,
-            IFNULL(party.name, 'ไม่ระบุ') AS party_name,
-            IFNULL(party.color_code, '#CCCCCC') AS party_color
-        FROM candidates
-        LEFT JOIN province ON candidates.province_id = province.id
-        LEFT JOIN party ON candidates.party_id = party.id;
-    `;
-
-  db.query(query, (err, data) => {
-    if (err) {
-      console.error("Error fetching candidates:", err);
-      return res.status(500).json({ error: err.code, message: err.message });
-    }
     return res.json(data);
   });
 });
@@ -265,144 +232,6 @@ app.post("/add-user", async (req, res) => {
     );
   } catch (error) {
     res.status(500).json({ error: "Internal Server Error" });
-  }
-});
-
-app.put("/result-submit-constituency", async (req, res) => {
-  try {
-    const records = req.body;
-
-    if (!Array.isArray(records) || records.length === 0) {
-      return res
-        .status(400)
-        .json({ error: "Request body must be a non-empty array" });
-    }
-
-    const insertResults = [];
-
-    for (const record of records) {
-      const { candidate_id, district, number, party_id, province_id, vote } =
-        record;
-
-      // Validate required fields for each record
-      if (
-        !province_id ||
-        !district ||
-        !number ||
-        !vote ||
-        !candidate_id ||
-        !party_id
-      ) {
-        return res
-          .status(400)
-          .json({ error: "All fields are required in each record" });
-      }
-
-      const updateResultSql =
-        "UPDATE result_dist SET vote = ? WHERE candidate_id = ? AND province_id = ? AND district = ? AND number = ? AND party_id = ?";
-
-      await new Promise((resolve, reject) =>
-        db.query(
-          updateResultSql,
-          [vote, candidate_id, province_id, district, number, party_id],
-          (err, result) => {
-            if (err) reject(err);
-            else resolve(result);
-          }
-        )
-      );
-
-      insertResults.push({
-        candidate_id,
-        province_id,
-        district,
-        number,
-        vote,
-        party_id,
-      });
-    }
-
-    res.json({
-      message: "Results processed successfully",
-      results: insertResults,
-    });
-  } catch (error) {
-    console.error("Unexpected error:", error);
-    res
-      .status(500)
-      .json({ error: "Internal Server Error", details: error.message });
-  }
-});
-
-app.get("/dist-info", (req, res) => {
-  const q =
-    "SELECT candidate_id, party_id, province_id, district, number FROM result_dist;";
-  db.query(q, (err, data) => {
-    if (err) return res.json(err);
-
-    return res.json(data);
-  });
-});
-
-app.put("/result-submit-partylist", async (req, res) => {
-  try {
-    const records = req.body;
-
-    // Validate that the request body is a non-empty array
-    if (!Array.isArray(records) || records.length === 0) {
-      return res
-        .status(400)
-        .json({ error: "Request body must be a non-empty array" });
-    }
-
-    const insertResults = [];
-
-    // Dynamically generate valid province IDs from pv1 to pv77
-    const validProvinceIds = Array.from({ length: 77 }, (_, i) => `pv${i + 1}`);
-
-    for (const record of records) {
-      const { party, party_id, province, province_id, vote } = record;
-
-      // Validate required fields for each record
-      if (!province_id || !vote || !party_id) {
-        return res
-          .status(400)
-          .json({ error: "All fields are required in each record" });
-      }
-
-      // Ensure province_id is a valid column name
-      if (!validProvinceIds.includes(province_id)) {
-        return res.status(400).json({ error: "Invalid province_id" });
-      }
-
-      // Dynamically construct the SQL query
-      const updateResultSql = `UPDATE result_party SET \`${province_id}\` = ? WHERE party_id = ?`;
-
-      // Perform the query
-      await new Promise((resolve, reject) =>
-        db.query(updateResultSql, [vote, party_id], (err, result) => {
-          if (err) reject(err);
-          else resolve(result);
-        })
-      );
-
-      insertResults.push({
-        province_id,
-        vote,
-        party_id,
-      });
-    }
-
-    // Respond with success message and results
-    res.json({
-      message: "Party List Results processed successfully",
-      results: insertResults,
-    });
-  } catch (error) {
-    console.error("Unexpected error:", error);
-    res
-      .status(500)
-      .json({ error: "Internal Server Error", details: error.message });
   }
 });
 

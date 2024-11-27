@@ -40,9 +40,9 @@ The Election Dashboard is a web application designed to provide real-time update
 - AMI: Creates consistent EC2 images for deployments.
 ## Demo
 
-[Real-Time Election Dashboard](https://linktodocumentation)
+[Real-Time Election Dashboard](https://drive.google.com/file/d/1u2FC1gujTHajSQY7ozLbv3-K863YODNs/view?usp=drive_link)
 
 ## Documentation
 
-- [Final Project Report](https://linktodocumentation)
-- [Final Project Presentation](https://linktodocumentation)
+- [Final Project Report](https://drive.google.com/file/d/1pHEq4nxKvqUS7iPa2fuHpFlkf6wVdMJz/view?usp=drive_link)
+- [Final Project Presentation](https://drive.google.com/file/d/17JbJW2AviBuzTLsA7c8Kq1-H7iTEwxCf/view?usp=drive_link)
